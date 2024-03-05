@@ -1,0 +1,52 @@
+(footprint "M2 solder nut" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 4 -3.4 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp cf269713-c619-41cd-a31f-1b4d3d25df43)
+  )
+  (fp_text value "M2 solder nut" (at 0 -4.2 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ddd705be-21e2-4c54-850a-e8131c4361d9)
+  )
+  (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c9a60333-8bcf-4fae-8fd0-43d88c5ffd8f)
+  )
+  (fp_poly
+    (pts
+      (arc (start -2.95804 -0.5) (mid -2.12132 -2.12132) (end -0.5 -2.95804))
+      (arc (start -0.5 -1.936492) (mid -1.414214 -1.414214) (end -1.936492 -0.5))
+    )
+
+    (stroke (width 0.2) (type solid)) (fill solid) (layer "F.Paste") (tstamp 50e453c8-d6c1-4898-ab45-123020040de5))
+  (fp_poly
+    (pts
+      (arc (start -2.95804 0.5) (mid -2.12132 2.12132) (end -0.5 2.95804))
+      (arc (start -0.5 1.936492) (mid -1.414214 1.414214) (end -1.936492 0.5))
+    )
+
+    (stroke (width 0.2) (type solid)) (fill solid) (layer "F.Paste") (tstamp b352fe74-91fb-4cbf-b9a8-54d9dbbcc1eb))
+  (fp_poly
+    (pts
+      (arc (start 2.95804 -0.5) (mid 2.12132 -2.12132) (end 0.5 -2.95804))
+      (arc (start 0.5 -1.936492) (mid 1.414214 -1.414214) (end 1.936492 -0.5))
+    )
+
+    (stroke (width 0.2) (type solid)) (fill solid) (layer "F.Paste") (tstamp 39069850-3931-489e-9d86-aae0a532a57b))
+  (fp_poly
+    (pts
+      (arc (start 2.95804 0.5) (mid 2.12132 2.12132) (end 0.5 2.95804))
+      (arc (start 0.5 1.936492) (mid 1.414214 1.414214) (end 1.936492 0.5))
+    )
+
+    (stroke (width 0.2) (type solid)) (fill solid) (layer "F.Paste") (tstamp 658b4e78-b907-4967-a9a8-5902e8d14769))
+  (fp_circle (center 0 0) (end 3.1 0.1)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp ebbb35f8-f2f5-46ab-8a3e-163c0c745a07))
+  (pad "1" thru_hole circle (at 0 0) (size 6.2 6.2) (drill 3.7) (layers "*.Cu" "*.Mask") (tstamp 5c9467d9-128a-49e5-8beb-e25a0e5adbe4))
+  (model "${KIPRJMOD}/Libraries/M2nutV2.pretty/solder_standoff_L10 v2.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
