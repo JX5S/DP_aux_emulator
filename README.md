@@ -13,3 +13,5 @@ Apart from the core DP-aux emulation circuitry, there is a programming micro-USB
 Firmware for it was written by the autor of the [iVRy SteamVR driver](https://store.steampowered.com/app/992490), a passthrough-only version of the firmware is provided in this repository for testing.
 
 As of March 2024, after the update, this board is only needed for using Nvidia boards with 3rd party PSVR2 drivers. This board only modifies DP-aux traffic, it doesn't help with connecting a PSVR2 to a card without a USB-C, for an adapter for such GPUs, check out [Swyter's project](https://github.com/Swyter/psdaptwor), but note that it hasn't been tested yet.
+
+Status: This is a third revision of the PCB, it has been verified to work as designed.
